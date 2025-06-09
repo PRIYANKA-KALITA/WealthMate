@@ -9,7 +9,7 @@ const PORT = process.env.PORT || 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-mongoose.connect("mongodb+srv://admin:admin123@cluster0.bfw80cc.mongodb.net/stocksDB?retryWrites=true&w=majority&appName=Cluster0", {
+mongoose.connect("mongodb(add your mongodb cluster URI", {
 	useNewUrlParser: true,
 	useUnifiedTopology: true,
 });
