@@ -1,4 +1,3 @@
-# WealthMate
 # Stock Market Portfolio App
 
 This is a full-stack stock market portfolio management application built using the MERN stack (MongoDB, Express, React, Node.js).
